@@ -8,6 +8,8 @@ import { registerDocs } from "./config/swagger.config";
 import { toNodeHandler } from "better-auth/node";
 import { auth } from "./config/auth.config";
 import "./config/redis.config";
+import { serve } from "inngest/express";
+import { inngest, functions } from "@/inngest/index"
 
 const app: Application = express();
 
@@ -35,6 +37,10 @@ app.use((req, res, next) => {
 });
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// ── Inngest ─────────────────────────────────────────────────────────────────
+
+app.use("/api/inngest", serve({ client: inngest, functions }));
 
 // ── Routes ─────────────────────────────────────────────────────────────────
 registerRoutes(app);
