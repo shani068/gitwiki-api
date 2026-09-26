@@ -9,6 +9,8 @@ const envSchema = z.object({
   BETTER_AUTH_URL: z.string().url().optional(),
   REDIS_URL: z.string().url().optional(),
   INNGEST_DEV: z.string().optional().default("1"),
+  PINECONE_INDEX_NAME: z.string(),
+  PINECONE_API_KEY: z.string(),
 });
 
 const result = envSchema.safeParse(process.env);

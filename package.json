@@ -13,6 +13,12 @@
     "check": "bun run lint && bun run format"
   },
   "dependencies": {
+    "@langchain/core": "^1.2.12",
+    "@langchain/openai": "^1.5.13",
+    "@langchain/pinecone": "^1.0.3",
+    "@langchain/textsplitters": "^1.0.1",
+    "@octokit/rest": "^22.0.1",
+    "@pinecone-database/pinecone": "^9.0.0",
     "@prisma/client": "^5.15.0",
     "@scalar/express-api-reference": "^0.9.14",
     "better-auth": "^1.6.9",
