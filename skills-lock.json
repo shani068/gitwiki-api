@@ -13,41 +13,29 @@
       "skillPath": "skills/code-review-and-quality/SKILL.md",
       "computedHash": "6231479cc74c7ed70a5618b81b3f94034d9806c0319a1a23d15f9b94a368c581"
     },
+    "codebase-design": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/codebase-design/SKILL.md",
+      "computedHash": "caea3cb8a8281ff829fd1a2b985044e77601b62f301adf43f689ccfc74c15f6f"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "b146008599c31057cef1c145774cea5d5afb30e8f43fa802e47a4b461419aaaf"
+    },
     "grill-me": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/productivity/grill-me/SKILL.md",
       "computedHash": "5e0c683385eafd83f106ac6c9d67dfbbfe5aa4b3fe65aad114eb1055a99c818f"
     },
-    "inngest-agent-evals": {
-      "source": "inngest/inngest-skills",
-      "sourceType": "github",
-      "skillPath": "skills/inngest-agent-evals/SKILL.md",
-      "computedHash": "51339509913363b46b31dcc0110da7f497b43589d05787dd5e5b8a1162e18215"
-    },
     "inngest-agents": {
       "source": "inngest/inngest-skills",
       "sourceType": "github",
       "skillPath": "skills/inngest-agents/SKILL.md",
       "computedHash": "b196420cbb04ad7d25e9add28f6e98d32d50fd57853b56899e2fd8ae7a37926f"
-    },
-    "inngest-api": {
-      "source": "inngest/inngest-skills",
-      "sourceType": "github",
-      "skillPath": "skills/inngest-api/SKILL.md",
-      "computedHash": "e455106b9f5e4e7b4cbacb2f021fff4f96acc065bc926acb5355b4554518cd4a"
-    },
-    "inngest-api-cli": {
-      "source": "inngest/inngest-skills",
-      "sourceType": "github",
-      "skillPath": "skills/inngest-api-cli/SKILL.md",
-      "computedHash": "5b68dbfa9f024511776c2a993fd87d3481412c0ecbd36f33b24466c5f9fa4727"
-    },
-    "inngest-brownfield-audit": {
-      "source": "inngest/inngest-skills",
-      "sourceType": "github",
-      "skillPath": "skills/inngest-brownfield-audit/SKILL.md",
-      "computedHash": "d72863ef02d6be80ee86d63fcd0d7bd409f81ed23a06ba88fdc1ee81b21d0bf0"
     },
     "inngest-cli": {
       "source": "inngest/inngest-skills",
@@ -97,23 +85,11 @@
       "skillPath": "skills/inngest-steps/SKILL.md",
       "computedHash": "e1e5fe474150b63e571dda5e030b1b4eb6b630ff20cd7e2e59812e70825d64c6"
     },
-    "inngest-v3-v4-migration": {
-      "source": "inngest/inngest-skills",
-      "sourceType": "github",
-      "skillPath": "skills/inngest-v3-v4-migration/SKILL.md",
-      "computedHash": "6f24b9c0f79cab5213f60715f8876eadbe43301d373b8276a305607aba356037"
-    },
     "prisma-client-api": {
       "source": "prisma/skills",
       "sourceType": "github",
       "skillPath": "prisma-client-api/SKILL.md",
       "computedHash": "5dcc0793337151efa73a444e5adbc7e1c24180778e83b4fe94c9109c391bd333"
-    },
-    "prisma-database-setup": {
-      "source": "prisma/skills",
-      "sourceType": "github",
-      "skillPath": "prisma-database-setup/SKILL.md",
-      "computedHash": "0911d9454bd48df3badd23a50fd90a280eabb15dcbd472c14e7b729075dadefb"
     },
     "security-and-hardening": {
       "source": "addyosmani/agent-skills",
